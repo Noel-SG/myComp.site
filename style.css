@@ -1,0 +1,64 @@
+.container-fluid{
+    
+    height: 400px;
+}
+h1{
+    color: white
+}
+
+.container-fluid{
+    z-index: -1;
+    height: 400px
+}
+.greenGradient{
+    background: rgb(26,69,113);
+    background: linear-gradient(180deg, rgba(26,69,113,1) 5%, rgba(72,28,204,0.3085609243697479) 53%, rgba(119,87,87,0) 100%);     
+}
+.verticalGradient{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,254,254,1) 38%, rgba(255,255,255,0) 100%);
+}  
+.LightFont{
+    color: white;
+    /*font-size: 500px;*/
+}
+.putInFront{
+    z-index: 1;
+    margin-left: 100px;
+}
+.navbarButton{
+    transition: all 1s ease-in-out;
+}
+.navbarButton:hover{
+    
+    color: rgb(206, 206, 206);
+    font-size: 23px;
+
+}
+.h2{
+    padding: 35px;
+}
+p{
+    padding: 35px;
+    font-size: 20px;
+}
+.Subtitle{
+    padding: 135px;
+    font-weight: 400;
+    font-size: 38px;
+}
+.indent{
+    margin-left: 35px;
+    font-size: 20px;
+    line-height: 1.9;
+}
+.black{
+    background-color: black
+}
+.webTitle{
+    padding: 70px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold
+    z-index: 1;
+}
